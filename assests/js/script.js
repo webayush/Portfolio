@@ -41,8 +41,8 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Kuhoo Agrawal";
-        $("#favicon").attr("href","assests/images/profile-pic.png");
+        document.title = "Portfolio | Ayush Mandal";
+        $("#favicon").attr("href","Images/CEO.jpg");
     }
     else {
         document.title = "Come Back To Portfolio";
